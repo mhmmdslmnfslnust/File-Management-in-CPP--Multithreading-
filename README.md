@@ -149,7 +149,23 @@ Each thread:
 - Closes files when done
 
 ## 🔄 Persistence
-The file system state is saved to `dil.dat` when all threads complete execution, ensuring that changes persist between program runs.
+The file system state is saved to `dil.dat` when all threads complete execution, ensuring that changes persist between program runs. Additionally, a cleaner version of the initial file system structure is available in `sample.dat`, which provides a more consistent starting point for the application.
+
+```
+DIR root
+DIR root
+FILE file02.txt 
+DIR main
+FILE file.txt My name is Muhammad Suleman Faisal
+DIR submain
+ENDDIR
+ENDDIR
+ENDDIR
+ENDDIR
+```
+
+## Known Issues
+- The application currently requires empty key presses during execution (you can press any key and it won't affect execution). This points to an underlying synchronization issue that could be addressed through contributions.
 
 ## 📚 Enhancements from Base Project
 This multithreaded version builds on the original File Management in C++ with these additional features:
@@ -164,9 +180,34 @@ Possible improvements for future versions:
 - Advanced thread scheduling
 - Web-based UI for file system visualization
 - Network file sharing capabilities
+- Fix for the empty key press requirement during execution
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License:
+
+```
+MIT License
+
+Copyright (c) 2023
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
