@@ -1,0 +1,10 @@
+DIR root
+DIR root
+FILE file02.txt 
+DIR main
+FILE file.txt My name is Muhammad Suleman Faisal
+DIR submain
+ENDDIR
+ENDDIR
+ENDDIR
+ENDDIR
