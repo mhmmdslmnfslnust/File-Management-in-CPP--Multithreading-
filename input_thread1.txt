@@ -1,0 +1,4 @@
+create file1.txt
+open file1.txt
+write file1.txt This is from thread 1
+close file1.txt

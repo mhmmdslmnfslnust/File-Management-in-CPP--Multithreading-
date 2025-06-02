@@ -1,0 +1,63 @@
+FILE backup_log.txt fd
+FILE data3.txt f
+FILE file02.txt 
+FILE file1.txt ff
+DIR Backup
+FILE file1.txt dd
+FILE timestamp.txt fd
+DIR Data
+FILE stats.txt 
+DIR Projects
+FILE project_log.txt d
+FILE todo.txt d
+ENDDIR
+ENDDIR
+DIR Projects
+FILE data3.txt f
+FILE file1.txt f
+FILE project_log.txt f
+FILE todo.txt 
+DIR Data
+FILE stats.txt f
+ENDDIR
+ENDDIR
+ENDDIR
+DIR Data
+FILE backup_log.txt f
+FILE stats.txt f
+DIR Backup
+FILE file1.txt f
+FILE timestamp.txt f
+DIR Projects
+FILE project_log.txt f
+FILE todo.txt f
+ENDDIR
+ENDDIR
+ENDDIR
+DIR Exampler
+FILE numbers_spaced.txt 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
+FILE shorter.txt shorter
+DIR Directory01
+ENDDIR
+DIR Directory02
+ENDDIR
+ENDDIR
+DIR Projects
+FILE backup_log.txt f
+FILE data3.txt 
+FILE file1.txt 
+FILE project_log.txt 
+FILE timestamp.txt 
+FILE todo.txt f
+DIR Data
+FILE file1.txt 
+FILE stats.txt f
+FILE todo.txt 
+ENDDIR
+ENDDIR
+DIR main
+FILE file.txt My name is Muhammad Suleman Faisal
+FILE group_members.txt Muhammad Suleman Faisal, Muhammad Hassaan Noor
+DIR submain
+ENDDIR
+ENDDIR

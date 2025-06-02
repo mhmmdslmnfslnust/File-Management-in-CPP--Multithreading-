@@ -1,0 +1,9 @@
+create data3.txt
+open data3.txt
+write data3.txt Initial data from thread 3
+write_at data3.txt 0 Modified by thread 3: 
+close data3.txt
+mkdir Data
+chdir Data
+create stats.txt
+write stats.txt Statistics collected by thread 3

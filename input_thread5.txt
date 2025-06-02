@@ -1,0 +1,4 @@
+create file5.txt
+open file5.txt
+write file5.txt This is from thread 5
+close file5.txt

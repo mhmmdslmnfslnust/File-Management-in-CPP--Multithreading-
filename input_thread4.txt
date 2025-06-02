@@ -1,0 +1,10 @@
+mkdir Backup
+create backup_log.txt
+open backup_log.txt
+write backup_log.txt Backup initiated by thread 4
+close backup_log.txt
+chdir Backup
+create timestamp.txt
+write timestamp.txt Backup created by thread 4
+ls
+memory_map

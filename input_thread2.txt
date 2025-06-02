@@ -1,0 +1,9 @@
+mkdir Projects
+chdir Projects
+create project_log.txt
+open project_log.txt
+write project_log.txt Thread 2 creating project documentation
+close project_log.txt
+ls
+create todo.txt
+write todo.txt Important tasks from thread 2
