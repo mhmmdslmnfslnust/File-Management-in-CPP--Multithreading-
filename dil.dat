@@ -33,6 +33,11 @@ FILE project_log.txt f
 FILE todo.txt f
 ENDDIR
 ENDDIR
+DIR Projects
+FILE file1.txt 
+FILE project_log.txt 
+FILE todo.txt 
+ENDDIR
 ENDDIR
 DIR Exampler
 FILE numbers_spaced.txt 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
